@@ -1,0 +1,161 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+} 
+
+ h1,h2,h3,h4,h5,h6 {
+   font-size:inherit;
+   font-weight:inherit;
+} 
+
+p {
+   margin-bottom: 15px;
+}
+
+html {
+   font-family: 'Lato', sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   color: rgb(24, 23, 23);
+}
+
+#main {
+   margin: 30px 15px;
+   padding: 20px;
+   border-radius: 5px;
+   background: rgba(211, 208, 208, 0.342);
+}
+
+h1 {
+   font-family: 'Edu TAS Beginner', cursive;
+   font-weight: 700;
+   font-size: 42px;
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.descr {
+   font-size: 20px;
+   text-align: center;
+   font-style: italic;
+}
+
+#img-div {
+   background: #fff;
+   padding: 5px;
+}
+
+img {
+   max-width: 100%;
+   display: block;
+   height: auto;
+   margin: 0 auto;
+}
+
+#img-caption {
+   margin: 15px 0 10px;
+   text-align: center;
+   font-size: 18px;
+}
+
+#tribute-info {
+   padding: 0 40px;
+}
+
+h2 {
+   font-size: 38px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 20px;
+}
+
+hr {
+   border: 1px inset; 
+   margin: 5px auto 15px;
+   width: 500px
+}
+
+h3 {
+   font-size: 25px;
+   margin-bottom: 10px;
+}
+
+ul {
+   padding-inline-start: 40px;
+   margin-bottom: 10px;
+}
+
+.awards {
+   margin-bottom: 40px;
+}
+
+.blockquote {
+   max-width: 85%;
+   margin: 100px auto 40px;
+}
+
+.blockquote p {
+   font-style: italic;
+   letter-spacing: 0.05em;
+   word-spacing: 6px;
+}
+
+.blockquote figcaption {
+   margin-top: 20px;
+   text-align: end;
+   font-size: 18px;
+}
+
+a{
+   text-decoration: none;
+}
+
+.link {
+   font-style: italic;
+   font-weight: 700;
+   font-size: 18px;
+   text-align: center;
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+   #tribute-info {
+      padding: 0 10px;
+   }
+   h1 {
+      font-size: 32px;
+   }
+   .descr {
+      font-size: 16px;
+   }
+   h2 {
+      font-size: 28px;
+   }
+   hr {
+      width: 300px;
+   }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+   html {
+      font-size: 14px;
+   }
+   h1 {
+      font-size: 28px;
+   }
+   h2 {
+      font-size: 24px;
+      line-height: 1.2;
+   }
+   hr {
+      width: 200px;
+   }
+   h3 {
+      font-size: 18px;
+   }
+   ul {
+      padding-inline-start: 20px;
+   }
+}
